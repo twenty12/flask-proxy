@@ -1,8 +1,9 @@
 from flask import Flask
 from requests import get
 
-app = Flask('__main__', static_folder=None)
-SITE_NAME = 'https://artpigeon.nyc/'
+app = Flask('__main__')
+# app = Flask('__main__', static_folder=None)
+SITE_NAME = 'http://artpigeon.nyc/'
 
 
 @app.route('/', defaults={'path': ''})

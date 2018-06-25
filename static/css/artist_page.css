@@ -1,0 +1,43 @@
+.artistPage h1 {
+    margin-bottom: -5px;
+}
+.artistPage .section {
+    margin-top: 40px;
+}
+.artistPage .artistInfo div {
+    overflow: hidden;
+}
+.artistPage .artistName h1{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.artistPage li {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.artistPage span {
+    font-weight: 600;
+    /*margin-right: 5px;*/
+}
+.artistPage .artPreview {
+    overflow: hidden;
+    position: relative;
+    padding-top: 15px;
+
+}
+.artistPage .artPreview h3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    padding:5px;
+    font-size: 1.5rem;
+    background-color: #eceff1;
+}
+.artistPage .artPreview img {
+    filter:grayscale(95%);
+    border: 1px solid #484848;
+    width: 100%;
+}
+.artistPage .map {
+    padding-top: 30px;
+}

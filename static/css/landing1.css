@@ -1,0 +1,99 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#bottom {
+  height: 70px;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.bgimg-1 {
+  position: relative;
+  opacity: 1;
+  /*background-color: #fdf6e3;*/
+  background-color: #c2c2c2;
+
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*background-image: url(../assets/img/propper_pigeon.jpg);*/
+  height: 30%;
+}
+.bgimg-2 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto 70%;
+  background-image: url(../assets/img/smart_pigeon.png);
+  background-color: white;
+  background-color: #c2c2c2;
+  height: 70%;
+  border-bottom: 2px solid #BB4D00;
+  box-shadow: 0 4px 2px -2px gray;
+}
+.caption {
+  position: absolute;
+  bottom: 0;
+  /*top: 20%;*/
+}
+.about {
+  padding: 30px;
+}
+.caption h1 { 
+  /* Art Pigeon */
+  font-family: 'Oswald', sans-serif;
+  font-size: 42pt;
+  margin-bottom: : 10px;
+  color: #BB4D00;
+  font-weight: lighter;
+}
+.caption h2 { 
+  /* tagline */
+  /*color: #ffffff;*/
+  font-size: 16pt;
+  font-weight: lighter;
+}
+.caption h2 span {
+  padding: 5px;
+  /*background: black;*/
+}
+.caption h1 span {
+  padding-right: 5px;
+  /*background: black;*/
+}
+h3 {
+  color: #BB4D00;
+  /*font-weight: lighter;*/
+  font-family: 'Oswald', sans-serif;
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .form-group input {
+    margin-top: 10px;
+  }
+  #bottom {
+    height: 10px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .form-group input {
+    margin-top: 10px;
+  }
+  #bottom {
+    height: 10px;
+  }
+}

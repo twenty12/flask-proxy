@@ -1,0 +1,238 @@
+.grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+#userBadges {
+    margin-bottom: -100px;
+
+}
+.badges {
+    /*height: 120px;*/
+    border-top: 2px solid #eceff1;
+    padding-top: 5px;
+}
+.badges li {
+    height: 120px;
+}
+/*#userBadges {
+    border: 2px solid #eceff1;
+    border-radius: 2px;
+}*/
+.badges div {
+    opacity: 0;
+    width: 100px;
+    height: 120px;
+    position: relative;
+    top: -120px;
+}
+.badges li:hover div {
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -ms-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    opacity: 1;
+}
+.badges li:hover svg {
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -ms-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    opacity: 0;
+}
+.profileImageCropper {
+width: 150px;
+
+height: 150px;
+
+position: relative;
+
+overflow: hidden;
+
+border-radius: 50%;
+
+border: 1px solid #babdbe;
+}
+#statusInfo {
+    opacity: 0.7;
+    position: absolute;
+    top: 40px;
+}
+#statusInfo:hover {
+    opacity: 1;
+}
+#stamp {
+width: 150px;
+
+margin: auto;
+
+text-align: center;
+
+border: 2px solid #ff7600;
+
+box-shadow: 0 0px 2px #ff7600;
+
+padding: 10px;
+
+font-weight: 800;
+
+text-transform: uppercase;
+
+color: #484848;
+top: 10px;
+
+position: relative;
+}
+.achievements h5 {
+    margin-top: 30px;
+}
+#statusModel .modal-title{
+    margin: 0 auto;
+}
+.status tr {
+    position: relative;
+    height: 50px;
+}
+.status th {
+    height: 100px;
+}
+#pointCount {
+    position: relative;
+    top: -50px;
+    padding-left: 10px;
+}
+.status td {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-bottom: 3px solid white;
+}
+#barFill {
+    background-color: #ffaa42;
+    border-left: 5px solid #484848;
+
+}
+.status td div {
+    /*width: 80%;*/
+    position: absolute;
+    height: calc(100% - 10px);
+    display: table;
+    top: 5px;
+}
+.status td div span {
+  display: table-cell;
+  vertical-align: middle;
+}
+th:nth-child(1) {
+    width: 5%;
+}
+th:nth-child(2) {
+    width: 20%;
+}
+th:nth-child(3) {
+    width: 30%;
+}
+th:nth-child(4) {
+    width: 35%;
+}
+.subtitle{
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+.profilePage {
+    margin-top: 40px;
+}
+.profilePage .userDetails {
+}
+.profilePage .userActivity {
+    /*background-color: blue;*/
+}
+.profilePage .editProfile {
+    /*margin-bottom: 10px;*/
+    /*border: 1px solid grey;*/
+    /*width: 100%;*/
+    /*background-color: orange;*/
+    /*position: absolute;*/
+}
+
+.profilePage .editProfile span {
+    /*position: absolute;*/
+    font-size: 14px;
+}
+
+.profilePage #userActivityTitle {
+    text-align: center;
+}
+.profilePage .ratingMetrics svg {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.profilePage .ratingMetrics h6 {
+    font-size: .5rem;
+    text-align: center;
+}
+
+.profilePage .profileInfo {
+    padding-top: 20px;
+}
+
+.profilePage .badges img{
+    /*width: 60px;*/
+    /*height: 60px;*/
+}
+.profilePage .badges li{
+    /*width: 100px;*/
+    /*height: 60px;*/
+}
+.profilePage .userDetails {
+    padding-top: 30px;
+}
+.profilePage .profileInfo span {
+    font-weight: normal;
+}
+.profilePage li{
+    font-size: .8rem;
+}
+.profilePage .bio {
+    /*padding-top: 20px;*/
+}
+.profilePage .artPreview h3 {
+    position: absolute;
+    z-index: 1;
+    /*bottom: 50%;*/
+    top:0;
+    padding:5px;
+    font-size: 1.5rem;
+    background-color: #eceff1;
+}
+.profilePage .artPreview {
+    overflow: hidden;
+    position: relative;
+}
+.profilePage .artPreview img {
+    filter:grayscale(95%);
+    border: 1px solid #484848;
+    width: 100%;
+}
+.profilePage .activityContent{
+    background-color: #eceff1;
+    /*border: 1px solid #484848;*/
+}
+
+.profilePage .activity {
+    font-style: italic;
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 770px) {
+    .table{
+        font-size: 10px !important;
+        margin:0;
+    }
+    .table thead th {
+        font-size: 10px !important;
+    }
+    .subtitle {
+        font-size: 10px !important;
+    }
+}

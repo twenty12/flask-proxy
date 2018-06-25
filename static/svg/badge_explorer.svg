@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px"
+	 height="120px" viewBox="0 0 100 120" style="enable-background:new 0 0 100 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.59;fill:#CDDC39;}
+	.st1{fill:#212121;}
+	.st2{fill:none;stroke:#212121;stroke-miterlimit:10;}
+	.st3{fill:#99AA00;}
+	.st4{fill:#CDDC39;stroke:#99AA00;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{font-family:'Helvetica';}
+	.st8{font-size:13px;}
+	.st9{fill:#FFFF6E;stroke:#99AA00;stroke-miterlimit:10;}
+	.st10{fill:#CDDC39;stroke:#FFFF6E;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st11{fill:#CDDC39;stroke:#FFFF6E;stroke-miterlimit:10;}
+	.st12{display:none;fill:url(#SVGID_1_);stroke:#CDDC39;stroke-miterlimit:10;}
+	.st13{display:none;fill:url(#SVGID_2_);}
+	.st14{fill:#FFFF6E;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st15{fill:#CDDC39;stroke:#F9F9F9;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1">
+	<g id="Layer_2_1_">
+	</g>
+	<rect x="-120" class="st0" width="100" height="20"/>
+	<text transform="matrix(1 0 0 1 -97.8158 15.1968)" class="st1 st7 st8">Explorer I</text>
+	<path class="st2" d="M-20,20"/>
+	<path class="st2" d="M-120,20"/>
+	<rect x="-120" class="st3" width="8" height="20"/>
+	<rect x="-28" class="st3" width="8" height="20"/>
+	<path class="st4" d="M-67.8,35c-14.1,23.3-28.2,46.7-42.2,70c26.7,0,53.3,0,80,0C-42.6,81.7-55.2,58.3-67.8,35z"/>
+	<g>
+		<path class="st5" d="M-68.7,74.9l0.2,6.4"/>
+		<path class="st5" d="M-64.1,77.4c-2.1,0.1-4.1,0.1-6.2,0.2c-1.6,0.1-3-1-3.3-2.5c-0.3-1.7,0.6-3,1.7-3.5c0.8-0.3,1.8-0.4,3.1,0.2
+			c3,1.4,6.6,2.9,10.5,1.8"/>
+		<line class="st5" x1="-58.3" y1="67.3" x2="-57.3" y2="92.6"/>
+	</g>
+	<line class="st5" x1="-88.6" y1="95" x2="-45.8" y2="95"/>
+	<circle cx="-68.5" cy="64" r="5.5"/>
+	<path class="st6" d="M-76.3,81.6l-1-12.2c-5.7,1.2-4.6,5.5-4.7,12.3L-76.3,81.6z"/>
+	<line class="st5" x1="-68.3" y1="81.3" x2="-63.2" y2="92.8"/>
+	<line class="st5" x1="-68.5" y1="81.3" x2="-72.7" y2="92.9"/>
+</g>
+<g id="Layer_2">
+	<rect class="st0" width="100" height="20"/>
+	<text transform="matrix(1 0 0 1 20.378 15.1968)" class="st1 st7 st8">Explorer II</text>
+	<path class="st2" d="M100,20"/>
+	<path class="st2" d="M0,20"/>
+	<rect class="st3" width="8" height="20"/>
+	<rect x="92" class="st3" width="8" height="20"/>
+	<rect x="17.5" y="37.5" class="st9" width="65" height="65"/>
+	<path class="st10" d="M52.2,32.5c-14.1,23.3-28.2,46.7-42.2,70c26.7,0,53.3,0,80,0C77.4,79.2,64.8,55.8,52.2,32.5z"/>
+	<g>
+		<path class="st5" d="M46.8,91.8c1.4-4.3,2.9-8.6,4.3-12.9"/>
+		<path class="st5" d="M49.9,74.1l1.3,4.8c2.2,0.8,4.5,1.6,6.7,2.5c0,1.9,0,3.8,0,5.6"/>
+		<path class="st5" d="M55.7,76.2c-2.1,0.1-4.1,0.1-6.2,0.2c-1.6,0.1-3-1-3.3-2.5c-0.3-1.7,0.6-3,1.7-3.5c0.8-0.3,1.8-0.4,3.1,0.2
+			c3,1.4,6.6,2.9,10.5,1.8"/>
+		<line class="st5" x1="60.2" y1="66.6" x2="64.1" y2="83.4"/>
+	</g>
+	<line class="st5" x1="36" y1="99" x2="72.2" y2="83.5"/>
+	<circle cx="46.8" cy="62.9" r="5.5"/>
+	<path class="st6" d="M46.4,82.5L42,71.1c-5.1,2.7-2.8,6.6-1,13.1L46.4,82.5z"/>
+</g>
+<g id="Layer_3">
+	<circle class="st11" cx="170" cy="70" r="47.5"/>
+	<radialGradient id="SVGID_1_" cx="170" cy="70" r="47.5" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.6799" style="stop-color:#99AA00"/>
+		<stop  offset="0.9623" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</radialGradient>
+	<circle class="st12" cx="170" cy="70" r="47.5"/>
+	<radialGradient id="SVGID_2_" cx="170" cy="72.5" r="33.079" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.6799" style="stop-color:#99AA00"/>
+		<stop  offset="0.9623" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	</radialGradient>
+	<rect x="136.4" y="40" class="st13" width="67.3" height="65"/>
+	<rect x="120" class="st0" width="100" height="20"/>
+	<text transform="matrix(1 0 0 1 138.5724 15.1968)" class="st1 st7 st8">Explorer III</text>
+	<path class="st2" d="M220,20"/>
+	<path class="st2" d="M120,20"/>
+	<rect x="120" class="st3" width="8" height="20"/>
+	<rect x="212" class="st3" width="8" height="20"/>
+	<rect x="137.5" y="37.5" class="st14" width="65" height="65"/>
+	<path class="st15" d="M172.2,32.5c-14.1,23.3-28.2,46.7-42.2,70c26.7,0,53.3,0,80,0C197.4,79.2,184.8,55.8,172.2,32.5z"/>
+	<g>
+		<path class="st5" d="M171,93.7c0-4.5,3.7-11,3.7-15.6"/>
+		<path class="st5" d="M171.9,74.1l2.8,4.1c1.6-0.9,11.6-5.7,7.2,0.1c-3.1,4-0.9,5.8-0.4,6.5"/>
+		<path class="st5" d="M175.4,72.6c-0.4,2.9-1.5,1.9-3.3,3.1c-1.5,0.6-3,0.7-3.7-0.6c-0.9-1.5-0.4-3.1,0.5-3.9c0.6-0.6,1.6-1,3-0.8
+			c3.3,0.3,7.4-0.3,4.1-4.8"/>
+		<path class="st5" d="M178.2,47.9"/>
+		<path class="st5" d="M166.1,67.7"/>
+	</g>
+	<line class="st5" x1="171" y1="100.6" x2="192.2" y2="78.1"/>
+	<circle cx="165.4" cy="64.4" r="5.5"/>
+	<path class="st6" d="M170.1,82.6l-7.6-9.7c-4.1,4.1-0.8,7.1,2.9,12.8L170.1,82.6z"/>
+</g>
+</svg>

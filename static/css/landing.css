@@ -1,0 +1,149 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFFFFF;
+}
+svg {
+  fill: currentColor;
+}
+a {
+    color: black;
+}
+.social {
+    margin-bottom: 0;
+}
+.social li{
+    display: inline-block;
+    padding-right: 5px;
+}
+.about p{
+    margin-left: 2px;
+}
+.inquiries{
+    font-size: 12px;
+}
+#bottom {
+  height: 70px;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.bgimg-1 {
+  /* The image used */
+  background-image: url(http://artpigeon.nyc/static/assets/img/camera_pig.png);
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid #BA160C;
+  box-shadow: 0em .0em .5em black;
+}
+
+.caption {
+  position: absolute;
+  top: 20%;
+}
+.about {
+  padding: 30px;
+}
+.caption h1 { 
+  /* Art Pigeon */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 42pt;
+  margin-bottom: : 10px;
+  color: #FF7900;
+}
+.caption h2 { 
+  /* tagline */
+  font-family: 'Open Sans Medium', sans-serif;
+  color: #ffffff;
+  font-size: 16pt;
+}
+.caption h2 span {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background: black;
+}
+.caption h1 span {
+  padding-right: 5px;
+  padding-left: 5px;
+  background: black;
+}
+h3 {
+  /* What? When? Where? */
+  color: #BA160C;
+  margin-bottom: -2px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+/*font-family: 'Roboto', sans-serif;*/
+  /*letter-spacing: 0.05em;*/
+}
+
+  /* for when screen is narrow and we need to fill to the width of the image */
+@media screen and (min-aspect-ratio: 375/212) {
+  .bgimg-1 {
+    background-size: 100% auto;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .form-group input {
+    margin-top: 10px;
+  }
+  #bottom {
+    height: 10px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .form-group input {
+    margin-top: 10px;
+  }
+  #bottom {
+    height: 10px;
+  }
+  .caption {
+    top: 15px;
+  }
+  .caption h1 {
+    font-size: 20pt;
+  }
+  .caption h2 {
+    font-size: 12pt;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .form-group input {
+    margin-top: 10px;
+  }
+  #bottom {
+    height: 10px;
+  }
+  .caption {
+    top: 15px;
+  }
+  .caption h1 {
+    font-size: 20pt;
+  }
+  .caption h2 {
+    font-size: 12pt;
+  }
+}
