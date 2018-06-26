@@ -26,17 +26,31 @@ def proxy_request(path, file=""):
     host = 'https://art-pigeon.com/' + path
     client = requests.session()
     client.get(host)  # sets cookie
-    csrftoken = client.cookies['csrftoken']
-    print(request.cookies)
+    print(type(request.headers.get('cookie')))
+    cookie = request.headers.get('cookie').split(';')[0].split('=')[1]
+    print('new cookie %s' % cookie)
+    # print(type(client.cookies))
+    # csrftoken = client.cookies['csrftoken']
+    if 'csrftoken' in client.cookies:
+        print('cookie token = %s' % client.cookies['csrftoken'])
+        csrftoken = client.cookies['csrftoken']
+        csrftoken = cookie
+    else:
+        csrftoken = None
     if request.method == "GET":
         response = client.get(host, cookies=request.cookies)
     elif request.method == "POST":
         # response = requests.post(host, data=request.form)
         post_data = {}
+        print('form token = %s' % request.form['csrfmiddlewaretoken'])
         for item in request.form:
             post_data[item] = request.form[item]
         post_data['csrfmiddlewaretoken'] = csrftoken
-        response = client.post(host, data=post_data, headers=dict(Referer=URL))
+        response = client.post(
+            host,
+            data=post_data,
+            headers=dict(Referer=URL),
+            cookies=request.cookies)
     proxy_response = Response(
         response=response.content,
         status=response.status_code,
